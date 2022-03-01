@@ -1,0 +1,63 @@
+<style type="text/css">
+a:hover {
+  color: red;
+}
+.bottom{
+  display:grid;
+  grid-template-columns:repeat(1, 1fr);
+  grid-gap:1em;
+  text-align: center;
+  font-family: Futura;
+  color: black;
+}
+
+.top{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:1em;
+  text-align: center;
+  font-family: Futura;
+  color: yellow;
+}
+
+.middle{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  grid-gap:1em;
+  text-align: center;
+  font-family: Futura;
+  color: blue;
+}
+
+}
+
+.bg-1{
+  background:#2832C2;
+}
+.bg-1{
+  background:#2832C2;
+}
+.bg-2{
+  background:#2832C2;
+}
+.bg-3{
+  background:#2832C2;
+}
+.bg-4{
+  background:teal;
+}
+.bg-5{
+  background:#E3242B;
+}
+.bg-6{
+  background:#BE93D4;
+}
+.bg-7{
+  background:#FFD300;
+}
+
+@media (max-width:599px){
+   .middle{
+    grid-template-columns:repeat(2, 1fr);
+  }
+</style type="text/css">
